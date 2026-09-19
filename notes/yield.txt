@@ -1,0 +1,1 @@
+Using yield turns .parse() into a generator that yields its results rather than returning them. This allows the framework to handle multiple requests and responses concurrently.

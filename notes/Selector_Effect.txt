@@ -1,0 +1,6 @@
+Selector / Effect
+h3 and a / Targets elements of that HTML element type
+> / Indicates a child element
+.price_color and article.product_pod / Indicates a class name and, optionally, specifies on which element the class name should be
+::text / Targets the text content of a HTML tag
+::attr(href) / Targets the value of an HTML attribute, in this case the URL in an href attribute
