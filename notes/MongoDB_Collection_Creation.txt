@@ -1,8 +1,0 @@
-> mongosh
-test> use [database name]
-switched to db [database name]
-[database name]> db.createCollection("<collection name>")
-{ ok: 1 }
-[database name]> show collections
-<collection name>
-[database name]>

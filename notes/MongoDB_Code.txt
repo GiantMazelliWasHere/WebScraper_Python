@@ -1,0 +1,16 @@
+Entrar no shell, criar uma database e uma collectio
+> mongosh
+test> use [database name]
+switched to db [database name]
+[database name]> db.createCollection("<collection name>")
+{ ok: 1 }
+[database name]> show collections
+<collection name>
+[database name]>
+
+Checar quantos dados(documentos) uma collection tem
+[database name]>db.<collection name>.countDocuments()
+
+
+Dropar os dados de uma collection
+[database name]>db.<collection name>.drop()
